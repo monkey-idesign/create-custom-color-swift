@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EDA2D62268CCD200AFFDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2D52268CCD200AFFDB7 /* AppDelegate.swift */; };
+		18EDA2D82268CCD200AFFDB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2D72268CCD200AFFDB7 /* ViewController.swift */; };
+		18EDA2DB2268CCD200AFFDB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDA2D92268CCD200AFFDB7 /* Main.storyboard */; };
+		18EDA2DD2268CCD300AFFDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDA2DC2268CCD300AFFDB7 /* Assets.xcassets */; };
+		18EDA2E02268CCD300AFFDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDA2DE2268CCD300AFFDB7 /* LaunchScreen.storyboard */; };
+		18EDA2EB2268CCD300AFFDB7 /* custom_colorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2EA2268CCD300AFFDB7 /* custom_colorTests.swift */; };
+		18EDA2F62268CCD300AFFDB7 /* custom_colorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2F52268CCD300AFFDB7 /* custom_colorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EDA2E72268CCD300AFFDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EDA2CA2268CCD200AFFDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EDA2D12268CCD200AFFDB7;
+			remoteInfo = "custom color";
+		};
+		18EDA2F22268CCD300AFFDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EDA2CA2268CCD200AFFDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EDA2D12268CCD200AFFDB7;
+			remoteInfo = "custom color";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EDA2D22268CCD200AFFDB7 /* custom color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "custom color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EDA2D52268CCD200AFFDB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EDA2D72268CCD200AFFDB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EDA2DA2268CCD200AFFDB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EDA2DC2268CCD300AFFDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EDA2DF2268CCD300AFFDB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EDA2E12268CCD300AFFDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDA2E62268CCD300AFFDB7 /* custom colorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom colorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EDA2EA2268CCD300AFFDB7 /* custom_colorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_colorTests.swift; sourceTree = "<group>"; };
+		18EDA2EC2268CCD300AFFDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDA2F12268CCD300AFFDB7 /* custom colorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom colorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EDA2F52268CCD300AFFDB7 /* custom_colorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_colorUITests.swift; sourceTree = "<group>"; };
+		18EDA2F72268CCD300AFFDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EDA2CF2268CCD200AFFDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2E32268CCD300AFFDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2EE2268CCD300AFFDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EDA2C92268CCD200AFFDB7 = {
+			isa = PBXGroup;
+			children = (
+				18EDA2D42268CCD200AFFDB7 /* custom color */,
+				18EDA2E92268CCD300AFFDB7 /* custom colorTests */,
+				18EDA2F42268CCD300AFFDB7 /* custom colorUITests */,
+				18EDA2D32268CCD200AFFDB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EDA2D32268CCD200AFFDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EDA2D22268CCD200AFFDB7 /* custom color.app */,
+				18EDA2E62268CCD300AFFDB7 /* custom colorTests.xctest */,
+				18EDA2F12268CCD300AFFDB7 /* custom colorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EDA2D42268CCD200AFFDB7 /* custom color */ = {
+			isa = PBXGroup;
+			children = (
+				18EDA2D52268CCD200AFFDB7 /* AppDelegate.swift */,
+				18EDA2D72268CCD200AFFDB7 /* ViewController.swift */,
+				18EDA2D92268CCD200AFFDB7 /* Main.storyboard */,
+				18EDA2DC2268CCD300AFFDB7 /* Assets.xcassets */,
+				18EDA2DE2268CCD300AFFDB7 /* LaunchScreen.storyboard */,
+				18EDA2E12268CCD300AFFDB7 /* Info.plist */,
+			);
+			path = "custom color";
+			sourceTree = "<group>";
+		};
+		18EDA2E92268CCD300AFFDB7 /* custom colorTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EDA2EA2268CCD300AFFDB7 /* custom_colorTests.swift */,
+				18EDA2EC2268CCD300AFFDB7 /* Info.plist */,
+			);
+			path = "custom colorTests";
+			sourceTree = "<group>";
+		};
+		18EDA2F42268CCD300AFFDB7 /* custom colorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EDA2F52268CCD300AFFDB7 /* custom_colorUITests.swift */,
+				18EDA2F72268CCD300AFFDB7 /* Info.plist */,
+			);
+			path = "custom colorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EDA2D12268CCD200AFFDB7 /* custom color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EDA2FA2268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom color" */;
+			buildPhases = (
+				18EDA2CE2268CCD200AFFDB7 /* Sources */,
+				18EDA2CF2268CCD200AFFDB7 /* Frameworks */,
+				18EDA2D02268CCD200AFFDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "custom color";
+			productName = "custom color";
+			productReference = 18EDA2D22268CCD200AFFDB7 /* custom color.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EDA2E52268CCD300AFFDB7 /* custom colorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EDA2FD2268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom colorTests" */;
+			buildPhases = (
+				18EDA2E22268CCD300AFFDB7 /* Sources */,
+				18EDA2E32268CCD300AFFDB7 /* Frameworks */,
+				18EDA2E42268CCD300AFFDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EDA2E82268CCD300AFFDB7 /* PBXTargetDependency */,
+			);
+			name = "custom colorTests";
+			productName = "custom colorTests";
+			productReference = 18EDA2E62268CCD300AFFDB7 /* custom colorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EDA2F02268CCD300AFFDB7 /* custom colorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EDA3002268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom colorUITests" */;
+			buildPhases = (
+				18EDA2ED2268CCD300AFFDB7 /* Sources */,
+				18EDA2EE2268CCD300AFFDB7 /* Frameworks */,
+				18EDA2EF2268CCD300AFFDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EDA2F32268CCD300AFFDB7 /* PBXTargetDependency */,
+			);
+			name = "custom colorUITests";
+			productName = "custom colorUITests";
+			productReference = 18EDA2F12268CCD300AFFDB7 /* custom colorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EDA2CA2268CCD200AFFDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Monkey iDesign";
+				TargetAttributes = {
+					18EDA2D12268CCD200AFFDB7 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					18EDA2E52268CCD300AFFDB7 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18EDA2D12268CCD200AFFDB7;
+					};
+					18EDA2F02268CCD300AFFDB7 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18EDA2D12268CCD200AFFDB7;
+					};
+				};
+			};
+			buildConfigurationList = 18EDA2CD2268CCD200AFFDB7 /* Build configuration list for PBXProject "custom color" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EDA2C92268CCD200AFFDB7;
+			productRefGroup = 18EDA2D32268CCD200AFFDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EDA2D12268CCD200AFFDB7 /* custom color */,
+				18EDA2E52268CCD300AFFDB7 /* custom colorTests */,
+				18EDA2F02268CCD300AFFDB7 /* custom colorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EDA2D02268CCD200AFFDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDA2E02268CCD300AFFDB7 /* LaunchScreen.storyboard in Resources */,
+				18EDA2DD2268CCD300AFFDB7 /* Assets.xcassets in Resources */,
+				18EDA2DB2268CCD200AFFDB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2E42268CCD300AFFDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2EF2268CCD300AFFDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EDA2CE2268CCD200AFFDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDA2D82268CCD200AFFDB7 /* ViewController.swift in Sources */,
+				18EDA2D62268CCD200AFFDB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2E22268CCD300AFFDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDA2EB2268CCD300AFFDB7 /* custom_colorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EDA2ED2268CCD300AFFDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDA2F62268CCD300AFFDB7 /* custom_colorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EDA2E82268CCD300AFFDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EDA2D12268CCD200AFFDB7 /* custom color */;
+			targetProxy = 18EDA2E72268CCD300AFFDB7 /* PBXContainerItemProxy */;
+		};
+		18EDA2F32268CCD300AFFDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EDA2D12268CCD200AFFDB7 /* custom color */;
+			targetProxy = 18EDA2F22268CCD300AFFDB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EDA2D92268CCD200AFFDB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EDA2DA2268CCD200AFFDB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EDA2DE2268CCD300AFFDB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EDA2DF2268CCD300AFFDB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EDA2F82268CCD300AFFDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EDA2F92268CCD300AFFDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EDA2FB2268CCD300AFFDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EDA2FC2268CCD300AFFDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18EDA2FE2268CCD300AFFDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom colorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custom color.app/custom color";
+			};
+			name = Debug;
+		};
+		18EDA2FF2268CCD300AFFDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom colorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custom color.app/custom color";
+			};
+			name = Release;
+		};
+		18EDA3012268CCD300AFFDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom colorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "custom color";
+			};
+			name = Debug;
+		};
+		18EDA3022268CCD300AFFDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX445RM6ZG;
+				INFOPLIST_FILE = "custom colorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeyidesign.custom-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "custom color";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EDA2CD2268CCD200AFFDB7 /* Build configuration list for PBXProject "custom color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDA2F82268CCD300AFFDB7 /* Debug */,
+				18EDA2F92268CCD300AFFDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EDA2FA2268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDA2FB2268CCD300AFFDB7 /* Debug */,
+				18EDA2FC2268CCD300AFFDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EDA2FD2268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom colorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDA2FE2268CCD300AFFDB7 /* Debug */,
+				18EDA2FF2268CCD300AFFDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EDA3002268CCD300AFFDB7 /* Build configuration list for PBXNativeTarget "custom colorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDA3012268CCD300AFFDB7 /* Debug */,
+				18EDA3022268CCD300AFFDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EDA2CA2268CCD200AFFDB7 /* Project object */;
+}
