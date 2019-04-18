@@ -14,6 +14,7 @@
 		18EDA2E02268CCD300AFFDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDA2DE2268CCD300AFFDB7 /* LaunchScreen.storyboard */; };
 		18EDA2EB2268CCD300AFFDB7 /* custom_colorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2EA2268CCD300AFFDB7 /* custom_colorTests.swift */; };
 		18EDA2F62268CCD300AFFDB7 /* custom_colorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2F52268CCD300AFFDB7 /* custom_colorUITests.swift */; };
+		18EDA3072268D12E00AFFDB7 /* exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA3062268D12E00AFFDB7 /* exts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18EDA2F12268CCD300AFFDB7 /* custom colorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom colorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDA2F52268CCD300AFFDB7 /* custom_colorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_colorUITests.swift; sourceTree = "<group>"; };
 		18EDA2F72268CCD300AFFDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDA3062268D12E00AFFDB7 /* exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		18EDA2C92268CCD200AFFDB7 = {
 			isa = PBXGroup;
 			children = (
+				18EDA3052268D10300AFFDB7 /* ext */,
 				18EDA2D42268CCD200AFFDB7 /* custom color */,
 				18EDA2E92268CCD300AFFDB7 /* custom colorTests */,
 				18EDA2F42268CCD300AFFDB7 /* custom colorUITests */,
@@ -123,6 +126,14 @@
 				18EDA2F72268CCD300AFFDB7 /* Info.plist */,
 			);
 			path = "custom colorUITests";
+			sourceTree = "<group>";
+		};
+		18EDA3052268D10300AFFDB7 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				18EDA3062268D12E00AFFDB7 /* exts.swift */,
+			);
+			path = ext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EDA3072268D12E00AFFDB7 /* exts.swift in Sources */,
 				18EDA2D82268CCD200AFFDB7 /* ViewController.swift in Sources */,
 				18EDA2D62268CCD200AFFDB7 /* AppDelegate.swift in Sources */,
 			);
